@@ -20,16 +20,25 @@ namespace Nodarbiba1_Csharp
             //Console.WriteLine(Piemers2(3,a));
 
             //Piemers3();
-            Console.WriteLine("Ievadiet pirmo skaitli: ");
-            int sk1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Ievadiet otro skaitli: ");
-            int sk2 = Convert.ToInt32(Console.ReadLine());
+
+           
+            int sk1 = IevaditSkaitli("Ievadit pirmo skaitli: ");            
+            int sk2 = IevaditSkaitli("Ievadit otro skaitli: ");
             Console.WriteLine("Rezultats ir: " + AddOrSubstract(sk1, sk2));
 
 
 
             Console.ReadLine();
         }
+
+        static int IevaditSkaitli(String teksts)
+        {
+            Console.WriteLine(teksts);
+            String ievade = Console.ReadLine();
+            return Convert.ToInt32(ievade);
+        }
+
+              
 
         static void PirmaisUzdevums()
         {
