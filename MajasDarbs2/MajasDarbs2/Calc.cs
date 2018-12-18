@@ -67,10 +67,6 @@ namespace MajasDarbs2
             {
                 Console.WriteLine("Ar nulli nevar dalīt!!!");
             }
-            //catch(FormatException)
-            //{
-            //    Console.WriteLine("Jūs neievadījāt skaitļus!!!");
-            //}
         }
 
         private double Add()

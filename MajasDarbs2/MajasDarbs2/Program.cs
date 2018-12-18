@@ -17,10 +17,10 @@ namespace MajasDarbs2
 
                 calc = new Calc(n1, n2, choice);
                 calc.WhatToDo();
+                
             }
             while (!Exit());
 
-            //Console.ReadLine();
         }
 
         private static double GetNum(String text)
